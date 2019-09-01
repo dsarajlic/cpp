@@ -1,10 +1,9 @@
-// This message outputs "Hello World!"
-
 #include "std_lib_facilities.h"
 
 int main() {
-    // insert code here...
-    cout << "Hello World!\n";
-    keep_window_open();
-    return 0;
+    cout << "Please enter your first name and age\n";
+    string first_name="???";
+    double age=-1;
+    cin >> first_name >> age;
+    cout << "Hello, " << first_name << " (age: " << age * 12 << " months old)\n";
 }
