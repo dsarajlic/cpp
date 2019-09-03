@@ -1,9 +1,15 @@
 #include "std_lib_facilities.h"
 
 int main() {
-    cout << "Please enter your first name and age\n";
-    string first_name="???";
-    double age=-1;
-    cin >> first_name >> age;
-    cout << "Hello, " << first_name << " (age: " << age * 12 << " months old)\n";
+    cout << "Please enter a floating-point value: ";
+    int n;
+    cin >> n  ;
+    cout << "n == " << n
+            << "\nn+1 ==" << n+1
+            << "\nthree times n == " << 3*n
+            << "\ntwice n == " << n+n
+            << "\nn squared == " << n*n
+            << "\nhalf of n == " << n/2
+            << "\nsquare root of n == " << n2
+    << '\n';
 }
